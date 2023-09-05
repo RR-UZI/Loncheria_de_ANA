@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="./assets/images/Logo_Loncheria.png" alt="Logo" height="100px" width="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto" >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#all">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Menu">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#Contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- hero Slider -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+    
+          <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+            <div class="container h-100 d-flex align-items-center justify-content-center ">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h6 class="text-white">Bienvenido a la Lonchería de ANA</h6>
+                        <h1 class="display-1 fw-bold text-white"> TODA FELICIDAD DEPENDE DE UN BUEN ALMUERZO </h1>
+                        <a href="#" class="btn btn-brand">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center bg-cover vh-100 active slide-2">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h6 class="text-white">Bienvenido a la Lonchería de ANA</h6>
+                        <h1 class="display-1 fw-bold text-white"> OPCIONES RICAS Y SALUDABLES </h1>
+                        <a href="#" class="btn btn-brand ">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <!-- Nosotros -->
+
+      <section id="about">
+          <div class="container">
+              <div class="row gy-4 align-items-center">
+                  <div class="col-lg-5">
+                      <img src="./assets/images/Loncheria_Ana.png" alt="">
+                  </div>
+                  <div class="col-lg-5">
+                      <h1>Nosotros</h1>
+                      <div class="divider my-4"></div>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vel hic neque temporibus et corporis est, sit molestiae voluptate rem modi, placeat, id in debitis quod incidunt illum iste suscipit!</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis recusandae nobis laudantium atque fugiat, possimus magnam, itaque animi at sequi harum culpa, id asperiores tempore! Perferendis ex voluptates perspiciatis impedit.</p>
+                      <a href="#" class="btn btn-brand"> Explorar menu</a>
+                  </div>
+              </div>
+
+          </div>
+      </section>
+
+      <!-- Menu -->
+      <section id="menu" class="bg-light">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 intro-text">
+                      <h1> Explora Nuestro Menu</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quaerat alias provident ipsam culpa ea similique molestiae fugiat doloribus ipsa adipisci amet quo natus hic illo recusandae, explicabo quis odit.</p>
+
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">Menu</button>
+                </li>
+                
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast" aria-selected="true">Tortas</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Sándwich</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Postres</button>
+                </li>
+    
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="./assets/images/Loncheria_Gorditas.png" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span> Calificación (5)</span>
+                                       <span>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                       </span>                                        
+                                    </div>
+                                    <h5 class="mt-1 mb-2">Gorditas</h5>
+                                    <p class="small"> Gorditas recién hechas, con un sabor increíble, agregales cualquier guisado de tu preferencia.</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show " id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab" tabindex="0">
+                    <h4>Tortas</h4>
+                </div>
+
+                <div class="tab-pane fade show " id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab" tabindex="0">
+                    <h4>Sándwich</h4>
+                </div>
+
+                <div class="tab-pane fade show " id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab" tabindex="0">
+                    <h4>Postres</h4>
+                </div>
+                
+              </div>
+          </div>
+         
+      </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
